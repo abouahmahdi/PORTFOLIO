@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio professionnel de ELMAHDI ABOUAH, étudiant en 3ème année d'ingénierie informatique.">
-  <title>ELMAHDI ABOUAH | Portfolio</title>
+  <meta name="description" content="Portfolio professionnel d'Elmahdi Abouah, étudiant en ingénierie informatique : développement web, data, BI et systèmes d'information.">
+  <meta name="theme-color" content="#06111f">
+  <title>Elmahdi Abouah | Portfolio Ingénierie Informatique</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,21 +13,18 @@
 </head>
 <body>
   <header class="site-header" id="top">
-    <nav class="navbar" aria-label="Navigation principale">
+    <nav class="navbar container" aria-label="Navigation principale">
       <a class="brand" href="#accueil" aria-label="Retour à l'accueil">ELMAHDI<span>ABOUAH</span></a>
-
       <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-menu">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
-
       <ul class="nav-links" id="main-menu">
         <li><a href="#accueil">Accueil</a></li>
         <li><a href="#apropos">À propos</a></li>
+        <li><a href="#experience">Expérience</a></li>
         <li><a href="#competences">Compétences</a></li>
         <li><a href="#projets">Projets</a></li>
-        <li><a href="#formation">Formation</a></li>
+        <li><a href="#objectifs">Objectifs</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -34,198 +32,154 @@
 
   <main>
     <section class="hero section" id="accueil">
-      <div class="hero-overlay"></div>
       <div class="container hero-content reveal">
-        <p class="eyebrow">Portfolio professionnel</p>
-        <h1>ELMAHDI ABOUAH</h1>
-        <h2>Étudiant en ingénierie informatique</h2>
+        <p class="eyebrow"><span class="status-dot"></span> Portfolio professionnel · 2026</p>
+        <h1>ELMAHDI <span>ABOUAH</span></h1>
+        <h2>Étudiant en ingénierie informatique<br><span class="hero-accent">Développement · Data · Systèmes d'information</span></h2>
         <p class="hero-text">
-          Passionné par le développement web, les systèmes d'information et la conception
-          d'applications utiles, je construis des projets propres, évolutifs et centrés sur l'utilisateur.
+          Je conçois des applications web et des solutions orientées données.
+          À travers mes projets académiques et mon expérience chez Smalter,
+          je développe une approche polyvalente, structurée et tournée vers les besoins métier.
         </p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Me contacter</a>
-          <a class="btn btn-secondary" href="#projets">Voir mes projets</a>
+          <a class="btn btn-primary" href="#projets">Découvrir mes projets <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-secondary" href="#contact">Me contacter</a>
+        </div>
+        <div class="hero-meta">
+          <span>📍 Maroc</span><span>Ingénierie informatique</span><span>Ouvert aux opportunités</span>
         </div>
       </div>
+      <a class="scroll-cue" href="#apropos" aria-label="Défiler vers la section à propos">↓</a>
     </section>
 
     <section class="section about" id="apropos">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">À propos</p>
-          <h2>Un profil technique orienté solutions</h2>
+          <p class="eyebrow">01 / À propos</p>
+          <h2>Un profil technique, curieux et orienté solutions.</h2>
+          <p class="section-lead">Mon parcours associe développement logiciel, gestion des données et compréhension des systèmes d'information.</p>
         </div>
-
         <div class="about-grid">
           <article class="about-card reveal">
-            <h3>Présentation personnelle</h3>
-            <p>
-              Je suis étudiant en 3ème année d'ingénierie informatique, motivé par la création
-              d'expériences numériques performantes, claires et maintenables.
-            </p>
+            <span class="card-icon">⌘</span>
+            <h3>Développement</h3>
+            <p>Conception d'interfaces web et d'applications connectées à des services et bases de données.</p>
           </article>
-
           <article class="about-card reveal">
-            <h3>Parcours académique</h3>
-            <p>
-              Mon parcours m'a permis de renforcer mes bases en programmation, bases de données,
-              développement web, algorithmique et architecture logicielle.
-            </p>
+            <span class="card-icon">▥</span>
+            <h3>Data & Business Intelligence</h3>
+            <p>Préparation des données, analyse, indicateurs de performance et visualisation pour faciliter la décision.</p>
           </article>
-
           <article class="about-card reveal">
-            <h3>Objectifs professionnels</h3>
-            <p>
-              Je souhaite évoluer vers des projets de développement logiciel et web, tout en
-              approfondissant mes compétences en ingénierie des systèmes et en conception d'applications.
-            </p>
+            <span class="card-icon">◎</span>
+            <h3>Apprentissage continu</h3>
+            <p>Motivé par les nouvelles technologies, les environnements professionnels et les solutions ERP comme SAP.</p>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / Expérience professionnelle</p>
+          <h2>Une première immersion en environnement professionnel.</h2>
+        </div>
+        <article class="experience-card reveal">
+          <div class="experience-top">
+            <div>
+              <p class="timeline-date">Stage en développement</p>
+              <h3>Smalter</h3>
+              <p class="experience-role">Développement d'une application de messagerie ERP</p>
+            </div>
+            <span class="experience-label">Expérience professionnelle</span>
+          </div>
+          <p>
+            Participation aux travaux autour d'une application de messagerie intégrée à un environnement ERP,
+            avec une interface web et des fonctionnalités de communication entre utilisateurs.
+          </p>
+          <div class="experience-details">
+            <div><strong>Travaux et fonctionnalités abordés</strong>
+              <ul>
+                <li>Application organisée autour de l'authentification, du tableau de bord et des conversations.</li>
+                <li>Gestion des messages, profils, notifications et recherche.</li>
+                <li>Fonctionnalités de partage et de téléchargement de fichiers.</li>
+                <li>Communication temps réel avec WebSocket / STOMP.</li>
+                <li>Environnement de développement conteneurisé avec Docker.</li>
+              </ul>
+            </div>
+            <div><strong>Environnement technique</strong>
+              <div class="tags">
+                <span>PHP</span><span>Symfony</span><span>React</span><span>Vite</span>
+                <span>Docker</span><span>Kafka</span><span>WebSocket</span><span>STOMP</span>
+              </div>
+              <p class="small-note">Technologies rencontrées ou mobilisées dans le cadre du projet et de l'apprentissage en stage.</p>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
     <section class="section skills" id="competences">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">Compétences</p>
-          <h2>Technologies et langages</h2>
+          <p class="eyebrow">03 / Compétences</p>
+          <h2>Outils et technologies</h2>
+          <p class="section-lead">Une vue organisée des technologies utilisées dans mes projets et de celles que je continue à approfondir.</p>
         </div>
-
         <div class="skills-grid">
           <article class="skill-card reveal">
-            <div class="skill-header">
-              <h3>HTML</h3>
-              <span>90%</span>
-            </div>
-            <div class="progress" aria-label="Niveau HTML 90%">
-              <span style="--level: 90%"></span>
-            </div>
+            <span class="skill-index">01</span><h3>Développement web</h3>
+            <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>PHP</span><span>Symfony</span><span>React</span><span>Vite</span></div>
           </article>
-
           <article class="skill-card reveal">
-            <div class="skill-header">
-              <h3>CSS</h3>
-              <span>85%</span>
-            </div>
-            <div class="progress" aria-label="Niveau CSS 85%">
-              <span style="--level: 85%"></span>
-            </div>
+            <span class="skill-index">02</span><h3>Programmation</h3>
+            <div class="tags"><span>Python</span><span>Java</span><span>C</span><span>C++</span></div>
           </article>
-
           <article class="skill-card reveal">
-            <div class="skill-header">
-              <h3>JavaScript</h3>
-              <span>80%</span>
-            </div>
-            <div class="progress" aria-label="Niveau JavaScript 80%">
-              <span style="--level: 80%"></span>
-            </div>
+            <span class="skill-index">03</span><h3>Données & BI</h3>
+            <div class="tags"><span>SQL</span><span>SQL Server</span><span>Power BI</span><span>DAX</span><span>SSIS</span><span>Scikit-learn</span><span>FastAPI</span></div>
           </article>
-
           <article class="skill-card reveal">
-            <div class="skill-header">
-              <h3>PHP</h3>
-              <span>78%</span>
-            </div>
-            <div class="progress" aria-label="Niveau PHP 78%">
-              <span style="--level: 78%"></span>
-            </div>
-          </article>
-
-          <article class="skill-card reveal">
-            <div class="skill-header">
-              <h3>SQL</h3>
-              <span>82%</span>
-            </div>
-            <div class="progress" aria-label="Niveau SQL 82%">
-              <span style="--level: 82%"></span>
-            </div>
-          </article>
-
-          <article class="skill-card reveal">
-            <div class="skill-header">
-              <h3>Java</h3>
-              <span>76%</span>
-            </div>
-            <div class="progress" aria-label="Niveau Java 76%">
-              <span style="--level: 76%"></span>
-            </div>
-          </article>
-
-          <article class="skill-card reveal">
-            <div class="skill-header">
-              <h3>C</h3>
-              <span>74%</span>
-            </div>
-            <div class="progress" aria-label="Niveau C 74%">
-              <span style="--level: 74%"></span>
-            </div>
-          </article>
-
-          <article class="skill-card reveal">
-            <div class="skill-header">
-              <h3>C++</h3>
-              <span>72%</span>
-            </div>
-            <div class="progress" aria-label="Niveau C++ 72%">
-              <span style="--level: 72%"></span>
-            </div>
+            <span class="skill-index">04</span><h3>Outils & intégration</h3>
+            <div class="tags"><span>Docker</span><span>Git</span><span>GitHub</span><span>GitLab</span><span>Kafka</span><span>WebSocket / STOMP</span><span>VS Code</span></div>
           </article>
         </div>
+        <p class="skills-disclaimer reveal">Les technologies présentées correspondent à mon parcours et à mes expériences. Je privilégie une présentation honnête des compétences plutôt que des pourcentages arbitraires.</p>
       </div>
     </section>
 
     <section class="section projects" id="projets">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">Projets</p>
-          <h2>Réalisations principales</h2>
+          <p class="eyebrow">04 / Projets</p>
+          <h2>Des réalisations concrètes.</h2>
+          <p class="section-lead">Des projets qui illustrent mon intérêt pour le développement d'applications, l'exploitation des données et les systèmes d'information.</p>
         </div>
-
         <div class="projects-grid">
-          <article class="project-card reveal">
-            <span class="project-number">01</span>
-            <h3>Portfolio personnel</h3>
-            <p>Site responsive présentant mon profil, mes compétences, ma formation et mes projets.</p>
-            <div class="tags">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
+          <article class="project-card project-featured reveal">
+            <div class="project-topline"><span class="project-number">01</span><span class="project-type">Projet de fin d'année · BI & IA</span></div>
+            <h3>Helpdesk Analytics & prédiction du risque SLA</h3>
+            <p>Conception d'une chaîne analytique pour exploiter les tickets IT, suivre les indicateurs du support et estimer le risque de non-respect des SLA.</p>
+            <ul class="project-points">
+              <li>Préparation et transformation des données de tickets.</li>
+              <li>Modélisation d'un datamart en schéma en étoile et calcul des KPI.</li>
+              <li>Comparaison de modèles de machine learning et exposition d'une API de prédiction.</li>
+              <li>Tableaux de bord pour le suivi des performances et des tendances.</li>
+            </ul>
+            <div class="tags"><span>Python</span><span>Scikit-learn</span><span>FastAPI</span><span>React</span><span>SQL Server</span><span>SSIS</span><span>Power BI</span></div>
           </article>
-
           <article class="project-card reveal">
-            <span class="project-number">02</span>
-            <h3>Application de gestion de contacts</h3>
-            <p>Application permettant d'ajouter, modifier, rechercher et organiser des contacts.</p>
-            <div class="tags">
-              <span>Java</span>
-              <span>SQL</span>
-              <span>UI</span>
-            </div>
+            <div class="project-topline"><span class="project-number">02</span><span class="project-type">Projet réalisé en stage</span></div>
+            <h3>Messagerie ERP</h3>
+            <p>Application de communication avec gestion des utilisateurs, conversations, messages, notifications et partage de fichiers, pensée pour un contexte professionnel.</p>
+            <div class="tags"><span>PHP</span><span>Symfony</span><span>React</span><span>Docker</span><span>Kafka</span><span>WebSocket / STOMP</span></div>
           </article>
-
           <article class="project-card reveal">
-            <span class="project-number">03</span>
-            <h3>Site e-commerce</h3>
-            <p>Interface web avec catalogue, panier, pages produits et structure de commande.</p>
-            <div class="tags">
-              <span>PHP</span>
-              <span>SQL</span>
-              <span>CSS</span>
-            </div>
-          </article>
-
-          <article class="project-card reveal">
-            <span class="project-number">04</span>
-            <h3>Système de réservation</h3>
-            <p>Solution de réservation avec gestion des disponibilités, utilisateurs et confirmations.</p>
-            <div class="tags">
-              <span>JavaScript</span>
-              <span>PHP</span>
-              <span>Database</span>
-            </div>
+            <div class="project-topline"><span class="project-number">03</span><span class="project-type">Projet personnel</span></div>
+            <h3>Portfolio professionnel</h3>
+            <p>Site web responsive pour présenter mon parcours, mes compétences, mes expériences et mes réalisations.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
           </article>
         </div>
       </div>
@@ -234,28 +188,43 @@
     <section class="section education" id="formation">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">Formation</p>
+          <p class="eyebrow">05 / Formation</p>
           <h2>Parcours académique</h2>
         </div>
-
         <div class="timeline">
           <article class="timeline-item reveal">
             <span class="timeline-dot"></span>
-            <div>
-              <p class="timeline-date">Avant le cycle ingénieur</p>
-              <h3>Baccalauréat</h3>
-              <p>Formation scientifique solide, avec développement de la rigueur, de l'analyse et de la méthode.</p>
+            <div><p class="timeline-date">Cycle ingénieur</p><h3>EMSI — Ingénierie informatique</h3>
+              <p>Formation en programmation, développement logiciel, bases de données, systèmes d'information et ingénierie informatique.</p>
             </div>
           </article>
-
           <article class="timeline-item reveal">
             <span class="timeline-dot"></span>
-            <div>
-              <p class="timeline-date">Actuellement</p>
-              <h3>EMSI - Cycle Ingénieur en Informatique</h3>
-              <p>3ème année d'ingénierie informatique, orientée développement, bases de données et systèmes.</p>
+            <div><p class="timeline-date">Formation antérieure</p><h3>Baccalauréat</h3>
+              <p>Parcours scientifique ayant renforcé mes capacités d'analyse, de raisonnement et de résolution de problèmes.</p>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sap-section" id="objectifs">
+      <div class="container sap-grid">
+        <div class="sap-copy reveal">
+          <p class="eyebrow">06 / Objectifs professionnels</p>
+          <h2>Un intérêt marqué pour l'écosystème <span>SAP</span>.</h2>
+          <p>
+            Je souhaite élargir mes compétences vers les systèmes d'information intégrés et découvrir
+            plus en profondeur les solutions SAP. Je suis particulièrement motivé à suivre une formation,
+            comprendre les processus métier et développer progressivement une expertise sur cet écosystème.
+          </p>
+          <p class="sap-note">SAP représente pour moi un axe de formation et de spécialisation à développer — et non une compétence que je prétends déjà maîtriser.</p>
+        </div>
+        <div class="sap-panel reveal">
+          <span class="sap-symbol">SAP</span>
+          <h3>Apprendre · Comprendre · Évoluer</h3>
+          <p>Mon objectif : relier mes bases en développement et en data aux besoins des entreprises et aux solutions ERP.</p>
+          <div class="tags"><span>ERP</span><span>Processus métier</span><span>Systèmes d'information</span><span>Formation continue</span></div>
         </div>
       </div>
     </section>
@@ -263,43 +232,24 @@
     <section class="section contact" id="contact">
       <div class="container contact-grid">
         <div class="contact-intro reveal">
-          <p class="eyebrow">Contact</p>
-          <h2>Travaillons ensemble</h2>
-          <p>
-            Disponible pour échanger autour de projets web, stages, collaborations académiques
-            ou opportunités liées au développement logiciel.
-          </p>
+          <p class="eyebrow">07 / Contact</p>
+          <h2>Échangeons autour de vos projets.</h2>
+          <p>Je suis ouvert aux échanges professionnels, aux opportunités de stage et aux projets liés au développement, à la data et aux systèmes d'information.</p>
+          <a class="btn btn-primary contact-cta" href="mailto:mehdiabouah@gmail.com">Envoyer un e-mail ↗</a>
         </div>
-
         <div class="contact-list reveal" aria-label="Informations de contact">
-          <a href="mailto:mehdiabouah@gmail.com">
-            <span>Email</span>
-            mehdiabouah@gmail.com
-          </a>
-          <a href="tel:+212639310733">
-            <span>Téléphone</span>
-            +212 639 310 733
-          </a>
-          <a href="https://www.linkedin.com/in/elmahdi-abouah" target="_blank" rel="noopener">
-            <span>LinkedIn</span>
-            Elmahdi Abouah
-          </a>
-          <a href="https://github.com/abouahmahdi" target="_blank" rel="noopener">
-            <span>GitHub</span>
-            github.com/abouahmahdi
-          </a>
+          <a href="mailto:mehdiabouah@gmail.com"><span>Email</span>mehdiabouah@gmail.com</a>
+          <a href="tel:+212639310733"><span>Téléphone</span>+212 639 310 733</a>
+          <a href="https://www.linkedin.com/in/elmahdi-abouah" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span>Elmahdi Abouah ↗</a>
+          <a href="https://github.com/abouahmahdi" target="_blank" rel="noopener noreferrer"><span>GitHub</span>github.com/abouahmahdi ↗</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <p>&copy; <span id="year"></span> ELMAHDI ABOUAH. Tous droits réservés.</p>
-      <a href="#accueil">Retour en haut</a>
-    </div>
+    <div class="container"><p>© <span id="year"></span> ELMAHDI ABOUAH. Tous droits réservés.</p><a href="#accueil">Retour en haut ↑</a></div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
